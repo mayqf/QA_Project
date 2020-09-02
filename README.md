@@ -1,4 +1,4 @@
-# Cypress io Assignment
+# Realworld App New Post Test with Cypress 
 
 For setting up the environment to execute this test existed in this repo, please run the following commands:
 
@@ -25,10 +25,15 @@ npx cypress open
 ---
 
 **Test cases implemented (Happy Path Scenarios):**
-1.  Login with valid credentials.
-2.  Login with invalid credentials.
-3.  Login with empty data.
-4.  Check Need an account? link.
+1.  Check Only The Title is Mandatory.
+2.  Check No limits for characters for any of the fields.
+3.  Check Only logged in users can create article.
+4.  Check Tags that doesn't exist are created automatically.
+5.  Check Only Only text is allowed.
+6.  Check the Success message after pusblishing article with title and directed to home page.
+7.  Check no draft saved and all changes are lost if user navigates away from the article before publishing.
+
+After test, 3 is succesfull. Others failed.
 
 
 
