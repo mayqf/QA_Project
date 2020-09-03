@@ -53,7 +53,6 @@ describe('Realworld New Post Scenarios Testing with Cypress', () => {
         cy.get('button[type="button"]').click()
         
     
-        // check that each tag is displayed after post is shown
         cy.url().should('include', '/article/my-title')
         cy.get('.tag-list').contains('my tag')
         //cy.contains('.tag-list', 'tag')
